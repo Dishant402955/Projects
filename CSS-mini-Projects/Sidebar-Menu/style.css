@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{
+    background: url(images/download.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-box .btn-one i{
+    color: aliceblue;
+    line-height: 50px;
+    font-size: 30px;
+    position: fixed;
+    left: 10px;
+    cursor: pointer;
+    transform: all 0.4 linear;
+}
+
+.sidebar-menu .btn-two i{
+    color: aliceblue;
+    line-height: 60px;
+    position: absolute;
+    left: 260px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.sidebar-menu{
+    position: fixed;
+    left: -400px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+    transition: all 0.4s ease-in-out;
+
+}
+
+.sidebar-menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+}
+
+.sidebar-menu .logo a{
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.sidebar-menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar-menu .social-media{
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+}
+
+.sidebar-menu .social-media a{
+    opacity: 0.5;
+}
+
+.sidebar-menu .menu li{
+    list-style: none;
+    line-height: 50px;
+    margin-top: 15px;
+    padding: 0px 30px;
+}
+
+.sidebar-menu .menu i{
+    padding-right: 10px;
+}
+
+.sidebar-menu .menu a,i{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#check{
+    display: none;
+}
+
+.sidebar-menu .menu li:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-menu .social-media a:hover{
+    opacity: 1;
+    font-size: 30px;
+}
+
+.main-box .btn-one i:hover{
+    font-size: 45px;
+}
+
+.sidebar-menu .btn-two i:hover{
+    opacity: 1;
+    font-size: 25px;
+}
+
+#check:checked ~ .sidebar-menu{
+    left: 0px;
+}
+
+#check:checked ~ .btn-one{
+    opacity: 0;
+}
