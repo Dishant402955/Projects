@@ -6,3 +6,343 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+:root{
+    --main-color: #239b7e;
+    --main-font: "Playfair Display SC", serif;
+    --primary-font: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #239b7e22;
+}
+
+nav{
+    display: flex;
+    font-family: var(--primary-font);
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 2rem;
+}
+
+nav .logo-heading{
+    margin: 2rem 6rem;
+    cursor: pointer;
+}
+
+nav .burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 6rem;
+    cursor: pointer;
+}
+
+nav .burger span{
+    border: 2px solid black;
+    background-color: black;
+    margin: 0.1rem;
+    height: 0.3rem;
+    width: 2.5rem;
+}
+
+button{
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px 20px;
+    transition: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+}
+
+button:hover{
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+header .head-img{
+    background: url(Media/male-yellow.jpg);
+    height: 25vw;
+    width: 25vw;
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6rem 0;
+}
+
+header .description{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40vw;
+}
+
+header .description .head-heading{
+    font-size: 4rem;
+    font-family: var(--main-font);
+    margin-bottom: 1rem;
+}
+
+header .description .details{
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    margin: 1rem;
+    margin-left: 0;
+}
+
+header .description button{
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8rem 2rem; 
+    background-color: #fff;
+    padding: 4rem 0px;
+}
+
+.section-two .section-two-img{
+    background: url(Media/female-black-blonde.jpg);
+    height: 25vw;
+    width: 25vw;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+}
+
+.section-two .description{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40vw;
+}
+
+.section-two .description .section-two-heading{
+    font-size: 4rem;
+    font-family: var(--main-font);
+    margin-bottom: 1rem;
+}
+
+.section-two .description .details{
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.section-two .description button{
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products .product-heading{
+    font-size: 5rem;
+    font-family: var(--main-font);
+}
+
+.products .product-categories{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.products .product-categories button{
+    margin: 2rem;
+}
+
+.products .list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 70vw;
+}
+
+.products .list .item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17vw;
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    font-family: var(--primary-font);
+}
+
+.products .list .item .one{
+    background: url(Media/male-black.jpg);
+    background-size: cover;
+    width: 12vw;
+    height: 30vh;
+}
+
+.products .list .item .two{
+    background: url(Media/male-black-cap.jpg);
+    background-size: cover;
+    width: 12vw;
+    height: 30vh;
+}
+
+.products .list .item .three{
+    background: url(Media/male-yellow.jpg);
+    background-size: cover;
+    width: 12vw;
+    height: 30vh;
+}
+
+.products .list .item .four{
+    background: url(Media/female-black-blonde.jpg);
+    background-size: cover;
+    width: 12vw;
+    height: 30vh;
+}
+
+.products .list .item .five{
+    background: url(Media/female-black.jpg);
+    background-size: cover;
+    width: 12vw;
+    height: 30vh;
+}
+
+.products .list .item .six{
+    background: url(Media/female-white.jpg);
+    background-size: cover;
+    width: 12vw;
+    height: 30vh;
+}
+
+.products .list .item {
+    opacity: 0.6;
+    transition: all ease 0.6s;
+    cursor: pointer;
+}
+
+.products .list .item:hover{
+    opacity: 1;
+    scale: 1.05;
+    box-shadow: 2px 2px 15px black;
+}
+
+.products .list .item .hoodie-name{
+    font-weight: 900;
+    margin: 0.5rem 0;
+}
+
+.products .list .item .price{
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+
+.products .list .item .view-product{
+    text-decoration: none;
+    color: var(--main-color);
+    text-decoration: underline var(--main-color);
+    margin-top: 0.5rem;
+}
+
+.customer-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 2rem; 
+    background-color: #fff;
+    padding: 4rem 0px;
+}
+
+.customer-reviews .heading{
+    margin-bottom: 2rem;
+}
+.customer-reviews .review-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+.customer-reviews .review-list .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%;
+    padding: 2rem;
+}
+
+.customer-reviews .review-list .item .img{
+    width : 12vw;
+    height: 250px;
+}
+
+.customer-reviews .review-list .item .one{
+    background: url(Media/female-black-blonde.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.customer-reviews .review-list .item .two{
+    background: url(Media/female-black.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.customer-reviews .review-list .item .three{
+    background: url(Media/female-white.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    margin: 2rem;
+    margin-bottom: 8rem;
+    font-family: var(--primary-font);
+}
+
+footer .item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 300px;
+}
+
+
+footer .item .details{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
