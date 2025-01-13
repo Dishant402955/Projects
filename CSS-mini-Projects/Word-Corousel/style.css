@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container span::after{
+    content: "";
+    animation: swap 4s ease-in-out infinite;
+}
+
+@keyframes swap {
+    0%{
+        content: "Front-end";
+    }
+    25%{
+        content: "Back-end";
+    }
+    50%{
+        content: "Databases";
+    }
+    75%{
+        content: "Server";
+    }
+    100%{
+        content: "Front-end";
+    }
+}
