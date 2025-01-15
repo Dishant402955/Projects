@@ -3,10 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tailwind Project</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    <h1>hello</h1>
+
+<body class="bg-[#fbf7ee]">
+
+    <nav class="flex justify-around bg-gray-300 p-3">
+        <div class="logo m-3 cursor-pointer text-2xl font-bold">
+            <h1 class="">Branding</h1>
+        </div>
+        <div class="nav-images m-3">
+            <img src="Media/SVG/SVG 1.svg" class="inline ml-16 cursor-pointer">
+            <img src="Media/SVG/SVG 2.svg" class="inline ml-16 cursor-pointer">
+            <img src="Media/SVG/SVG 3.svg" class="inline ml-16 cursor-pointer">
+        </div>
+    </nav>
+
+    <header class="mt-10 flex justify-around">
+        <div class="card-one">
+            <h1 class="font-bold mb-2 text-3xl">Spring / Summer Vibe</h1>
+            <p class="w-[340px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta aut facilis atque porro tempore nulla explicabo </p>
+            <img src="Media/mohamad-khosravi-DuY4JP2M34Q-unsplash.jpg" class="w-[300px] mt-5">
+        </div>
+        <div class="card-two">
+            <img src="Media/austin-wade-d2s8NQ6WD24-unsplash.jpg" class="w-[300px] mb-5 rounded-t-full">
+            <p class="w-[340px] font-light mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta aut facilis
+                atque porro tempore nulla explicabo </p>
+            <button class="border-2 border-red-300 text-red-300 py-2 px-6 hover:bg-red-300 hover:text-white transition duration-500 ease-in">Explore</button>
+        </div>
+    </header>
+
+    <section class="flex justify-around mt-[20vh]">
+        <div class="flex flex-col justify-center items-start">
+            <h1 class="font-bold  m-10 text-3xl">
+                An Industrial Take <br/>
+                On Streetwear
+            </h1>
+            <p class="w-[340px] font-light m-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, soluta aut facilis atque porro tempore nulla explicabo
+            </p>
+            <button class="border-2 border-red-300 m-10 text-red-300 py-2 px-6 hover:bg-red-300 hover:text-white transition duration-500 ease-in">Shop Now</button>
+        </div>
+        <img src="Media/austin-wade-iQn82USu8gs-unsplash.jpg" class="w-[340px]">
+    </section>
+
+    <section class="flex justify-center items-center mt-20 p-10">
+        <div class="p-10 ml-10">
+            <h1 class="font-bold mb-6">Buy Now, Pay Later</h1>
+            <p class="font-thin w-[14rem] mb-5">0% Interest financing available pay after 30 days</p>
+            <button class="border-2 border-red-300  text-red-300 py-2 px-6 hover:bg-red-300 hover:text-white transition duration-500 ease-in">Shop Now</button>
+        </div>
+        <div class="p-10 ml-10">
+            <h1 class="font-bold mb-6">Cashback Rewards</h1>
+            <p class="font-thin w-[14rem] mb-5">Collect some money back after payment</p>
+            <button class="border-2 border-red-300  text-red-300 py-2 px-6 hover:bg-red-300 hover:text-white transition duration-500 ease-in">Shop Now</button>
+        </div>
+        <div class="p-10 ml-10">
+            <h1 class="font-bold mb-6">Secure Payment</h1>
+            <p class="font-thin w-[14rem] mb-5">Guarentee 100% secure payment online on our website</p>
+            <button class="border-2 border-red-300  text-red-300 py-2 px-6 hover:bg-red-300 hover:text-white transition duration-500 ease-in">Shop Now</button>
+        </div>
+    </section>
 </body>
+
 </html>
