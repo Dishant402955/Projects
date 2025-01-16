@@ -25,21 +25,21 @@ body{
 }
 
 .clip1{
-    background: url(Media/female-black.jpg);
+    background: url(Assets/female-black.jpg);
     background-position: top;
     background-size: cover;
     clip-path: polygon(0 0, 46% 0, 39% 100%, 0 100%);
 }
 
 .clip2{
-    background: url(Media/female-black-blonde.jpg);
+    background: url(Assets/female-black-blonde.jpg);
     background-position: center;
     background-size: cover;
     clip-path: polygon(19% 0, 87% 0, 64% 100%, 33% 100%);
 }
 
 .clip3{
-    background: url(Media/female-white.jpg);
+    background: url(Assets/female-white.jpg);
     background-position: center;
     background-size: cover;
     clip-path: polygon(82% 0, 100% 0, 100% 100%, 63% 100%);

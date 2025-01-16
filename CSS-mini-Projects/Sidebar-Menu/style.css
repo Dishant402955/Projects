@@ -4,7 +4,7 @@
 }
 
 .main-box{
-    background: url(images/download.jpeg);
+    background: url(Assets/download.jpeg);
     height: 100vh;
     background-size: cover;
 }

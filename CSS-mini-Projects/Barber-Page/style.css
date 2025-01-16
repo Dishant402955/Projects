@@ -105,7 +105,7 @@ header .images-container{
 }
 
 header .images-container .img-1{
-  background: url(Media/7.jpg);
+  background: url(Assets/7.jpg);
   z-index: 1;
   height: 40vh;
   width: 35%;
@@ -117,7 +117,7 @@ header .images-container .img-1{
 }
 
 header .images-container .img-2{
-  background: url(Media/5.jpg);
+  background: url(Assets/5.jpg);
   height: 40vh;
   width: 35%;
   background-size: cover;
@@ -142,7 +142,7 @@ header .images-container .img-2{
 }
 
 .experience .img{
-  background: url(Media/4.jpg);
+  background: url(Assets/4.jpg);
   height: 55vh;
   width: 45%;
   background-size: cover;
@@ -220,7 +220,7 @@ header .images-container .img-2{
 }
 
 .hero .img{
-  background: url(Media/1.jpg);
+  background: url(Assets/1.jpg);
   height: 55vh;
   width: 45%;
   background-size: cover;
@@ -296,19 +296,19 @@ header .images-container .img-2{
 }
 
 .services .hair .img{
-  background: url(Media/6.jpg);
+  background: url(Assets/6.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .services .shave .img{
-  background: url(Media/3.jpg);
+  background: url(Assets/3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .services .beard .img{
-  background: url(Media/2.jpg);
+  background: url(Assets/2.jpg);
   background-size: cover;
   background-position: center;
 }

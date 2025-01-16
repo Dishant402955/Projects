@@ -66,7 +66,7 @@ button:hover{
 
 
 header .head-img{
-    background: url(Media/male-yellow.jpg);
+    background: url(Assets/male-yellow.jpg);
     height: 25vw;
     width: 25vw;
     background-position: top;
@@ -116,7 +116,7 @@ header .description button{
 }
 
 .section-two .section-two-img{
-    background: url(Media/female-black-blonde.jpg);
+    background: url(Assets/female-black-blonde.jpg);
     height: 25vw;
     width: 25vw;
     background-position: center;
@@ -197,42 +197,42 @@ header .description button{
 }
 
 .products .list .item .one{
-    background: url(Media/male-black.jpg);
+    background: url(Assets/male-black.jpg);
     background-size: cover;
     width: 12vw;
     height: 30vh;
 }
 
 .products .list .item .two{
-    background: url(Media/male-black-cap.jpg);
+    background: url(Assets/male-black-cap.jpg);
     background-size: cover;
     width: 12vw;
     height: 30vh;
 }
 
 .products .list .item .three{
-    background: url(Media/male-yellow.jpg);
+    background: url(Assets/male-yellow.jpg);
     background-size: cover;
     width: 12vw;
     height: 30vh;
 }
 
 .products .list .item .four{
-    background: url(Media/female-black-blonde.jpg);
+    background: url(Assets/female-black-blonde.jpg);
     background-size: cover;
     width: 12vw;
     height: 30vh;
 }
 
 .products .list .item .five{
-    background: url(Media/female-black.jpg);
+    background: url(Assets/female-black.jpg);
     background-size: cover;
     width: 12vw;
     height: 30vh;
 }
 
 .products .list .item .six{
-    background: url(Media/female-white.jpg);
+    background: url(Assets/female-white.jpg);
     background-size: cover;
     width: 12vw;
     height: 30vh;
@@ -304,19 +304,19 @@ header .description button{
 }
 
 .customer-reviews .review-list .item .one{
-    background: url(Media/female-black-blonde.jpg);
+    background: url(Assets/female-black-blonde.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .customer-reviews .review-list .item .two{
-    background: url(Media/female-black.jpg);
+    background: url(Assets/female-black.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .customer-reviews .review-list .item .three{
-    background: url(Media/female-white.jpg);
+    background: url(Assets/female-white.jpg);
     background-position: center;
     background-size: cover;
 }
