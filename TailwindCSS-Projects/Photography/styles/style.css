@@ -558,6 +558,10 @@ video {
   margin: 0.5rem;
 }
 
+.m-16 {
+  margin: 4rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -571,6 +575,16 @@ video {
 .my-40 {
   margin-top: 10rem;
   margin-bottom: 10rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .mb-2 {
@@ -587,6 +601,42 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
+.ml-72 {
+  margin-left: 18rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .flex {
@@ -613,6 +663,22 @@ video {
   width: 100%;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .translate-x-14 {
   --tw-translate-x: 3.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -632,6 +698,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -711,6 +781,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
