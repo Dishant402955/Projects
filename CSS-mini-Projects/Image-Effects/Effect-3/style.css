@@ -1,0 +1,55 @@
+*{
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #000d;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30rem;
+	height: 38rem;
+	position: relative;
+	overflow: hidden;
+	background: url("Assets/milad-shams-AxqT51VT8mw-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	box-shadow: black 1px 1px 10px;
+}
+
+.content{
+	height: 100%;
+	width: 90%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	background-color: crimson;
+	transform: translateY(99%);
+	transition: all 1s;
+}
+
+h1, p, button{
+	margin: 1rem;	
+}
+
+button{
+	padding: 0.5rem;
+	font-size: 1.4rem;
+}
+
+.container:hover .content{
+	transform: translateY(0);
+	width: 100%;
+}
