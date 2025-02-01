@@ -1,0 +1,58 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+/*  flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.headings {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.headings span {
+  position: relative;
+  color: crimson;
+  animation: animation 5s ease infinite;
+}
+
+@keyframes animation {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: 0;
+  }
+  25% {
+    top: -2rem;
+  }
+  45% {
+    top: -2rem;
+  }
+  50% {
+    top: -4rem;
+  }
+  70% {
+    top: -4rem;
+  }
+  75% {
+    top: -6rem;
+  }
+  95% {
+    top: -6rem;
+  }
+  100%{
+   	top:0;
+  }
+}
