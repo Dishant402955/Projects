@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap : wrap;
+    background-color: #ae9cff;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width: 50%;
+    /* height: 35%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap : wrap;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap : wrap;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem;
+    width: 100%;
+}
+
+.search-box input{
+    border: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #ae9cff;
+    width: 50%;
+    margin: 0.5rem;
+    font-size: 1rem;
+    outline : none;
+    max-width : 1000px;
+}
+
+.search-box button{
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border-radius: 10%;
+    color: white;
+    margin: 1rem;
+    background-color: #ae9cff;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap : wrap;
+}    
+
+.result .word{
+    font-family: 'Arial Narrow', Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+} 
+
+.result .partofSpeech{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.result .definition{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
