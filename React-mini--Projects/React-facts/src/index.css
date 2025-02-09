@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
+
+@layer components {
+  .nav {
+    @apply bg-gray-900 flex px-8 py-3 align-middle;
+  }
+  .content {
+    @apply text-white px-40 py-20 text-xl;
+  }
+  li {
+    @apply my-2;
+  }
+}
