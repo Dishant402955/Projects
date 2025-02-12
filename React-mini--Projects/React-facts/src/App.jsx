@@ -1,12 +1,8 @@
-import { useState } from "react";
-import React from "react";
-import reactLogo from "./assets/react.svg";
-
 function App() {
   return (
     <section className="bg-gray-800 h-[100vh]">
       <nav className="nav">
-        <img src={reactLogo} className="w-[60px] my-3 mx-1" />
+        <img src="./assets/react.svg" className="w-[60px] my-3 mx-1" alt="" />
         <h1 className="text-[#61dafb] text-3xl my-3 mx-1">React facts</h1>
       </nav>
       <main className="content">
