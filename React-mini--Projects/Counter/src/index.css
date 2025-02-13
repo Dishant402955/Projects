@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
+
+@layer components {
+  .wrapper {
+    @apply flex justify-center flex-col items-center h-[100vh];
+  }
+  .btn {
+    @apply bg-gray-800 text-white w-[70px] h-[70px] text-3xl rounded-full cursor-pointer  text-center m-5;
+  }
+  .display {
+    @apply bg-black text-white flex justify-center items-center w-[100px] h-[100px] text-5xl  mx-14 my-10;
+  }
+}
